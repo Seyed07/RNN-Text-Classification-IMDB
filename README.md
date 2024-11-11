@@ -37,21 +37,4 @@ All models are trained using the following parameters:
 - **Epochs**: 10
 - **Batch Size**: 64
 
-### Evaluation
-
-Each model is evaluated on the **IMDB test dataset**. The performance is measured using two metrics:
-- **Test Loss**
-- **Test Accuracy**
-
-## Results
-
-- **Simple RNN**: Achieved a test accuracy of X% with a test loss of Y.
-- **LSTM**: Achieved a test accuracy of X% with a test loss of Y.
-- **GRU**: Achieved a test accuracy of X% with a test loss of Y.
-- **LSTM with Attention**: Achieved a test accuracy of X% with a test loss of Y.
-
-### Conclusion
-
-Among the models tested, the **LSTM with Attention** model showed the best performance, suggesting that attention mechanisms can significantly improve the accuracy of sentiment analysis tasks.
-
 
